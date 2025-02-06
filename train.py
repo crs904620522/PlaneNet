@@ -15,7 +15,7 @@ from lf2disp.checkpoints import CheckpointIO
 if __name__ == "__main__":
     # Arguments
     parser = argparse.ArgumentParser(
-        description='Train a light field depth estimation network'
+        description='Train a light field depth estimation model'
     )
     parser.add_argument('--config', type=str, default='./configs/EPINET_UrbanLF.yaml')
     parser.add_argument('--no-cuda', action='store_true', help='Do not use cuda.')
