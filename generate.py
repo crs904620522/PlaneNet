@@ -10,7 +10,7 @@ from lf2disp.checkpoints import CheckpointIO
 import numpy as np
 
 parser = argparse.ArgumentParser(
-    description='Test a lightfield disparity estimation model.'
+    description='Test a lightfield depth estimation model.'
 )
 parser.add_argument('--config', type=str, default='./configs/pretrained/BpCNet_pretrained.yaml')
 parser.add_argument('--no-cuda', action='store_true', help='Do not use cuda.')
