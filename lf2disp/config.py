@@ -97,7 +97,7 @@ def get_trainer(model, optimizer, cfg, device):
     return trainer
 
 
-# Generator for final mesh extraction
+# Generator for depth
 def get_generator(model, cfg, device):
     ''' Returns a generator instance.
 
