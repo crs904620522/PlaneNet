@@ -1,0 +1,35 @@
+method: PlaneDistgDisp
+GPU_ID: '2'
+data:
+  dataset: 'HCInew'
+  path: '/data/crs/LFdepth/LFData/HCInew'
+  views: 9 
+training:
+  out_dir: './out/PlaneDistgDisp/HCInew'
+  loss: 'MAEL1'
+  batch_size: 4
+  image_batch_size: 4
+  input_size: 64
+  augmentation: True 
+  transform: False     
+  model_selection_metric: 'minimize'
+  val_metric: 'mse'
+  print_every: 5
+  checkpoint_every: 2000
+  validate_every: 2000
+  visualize_every: 2000
+  backup_every: 2000
+test:
+  test_dir: './out/PlaneDistgDisp/HCInew/test_dir'
+  batch_size: 1
+  image_batch_size: 1
+  input_size: 512
+  transform: False
+  guide_view: 40
+vis:
+  vis_dir: './out/PlaneDistgDisp/HCInew/val_dir'
+  batch_size: 1
+  image_batch_size: 1
+  input_size: 512
+  transform: False
+  guide_view: 40

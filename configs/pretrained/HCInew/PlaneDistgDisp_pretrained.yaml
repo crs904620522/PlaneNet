@@ -1,0 +1,9 @@
+inherit_from: configs/HCInew/PlaneDistgDisp.yaml
+GPU_ID: '2'
+generation:
+  generation_dir: './out/PlaneDistgDisp/HCInew/generation'
+  model_file: 'model_best.pt'
+  input_size: 512
+  transform: False
+  name: ['backgammon', 'dots', 'pyramids', 'stripes', 'dino','boxes', 'sideboard', 'cotton', 'bedroom', 'bicycle','herbs', 'origami', ]
+  image_batch_size: 1
