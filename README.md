@@ -25,11 +25,11 @@ conda activate PlaneNet
 Light Field Dataset: We use [HCI 4D Light Field Dataset](https://lightfield-analysis.uni-konstanz.de/) for training and test. Please first download light field dataset with its full-view depth information, and put them into corresponding folders in ***data/HCInew***.
 
 
-## PlaneNet
+#### PlaneNet
 Coming Soon!
 
 
-## PlaneDistgDisp
+#### PlaneDistgDisp
 
 ##### Model weights: 
 Please download the model weights from [Google Drive](https://drive.google.com/drive/folders/187RP68_Q1UOVkzXKAXdZ75i4klWp20Jx?usp=sharing), and put the "model_best.pt" in the ***out/PlaneDistgDisp/HCInew***.
