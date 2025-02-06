@@ -32,7 +32,7 @@ Coming Soon!
 ## PlaneDistgDisp
 
 ##### Model weights: 
-Please download the model weights from [Google Drive](https://drive.google.com/file/d/1lhDqVPa-QnpK_wX9oN2HPBkaVdmPzsOv/view?usp=sharing), and put them in the ***out/PlaneDistgDisp/HCInew***.
+Please download the model weights from [Google Drive](https://drive.google.com/drive/folders/187RP68_Q1UOVkzXKAXdZ75i4klWp20Jx?usp=sharing), and put the "model_best.pt" in the ***out/PlaneDistgDisp/HCInew***.
 
 ##### To train, run:
 
