@@ -2,7 +2,7 @@
 
 ###### *PyTorch implementation of TCSVT paper: "Surface-continuous Scene Representation for Light Field Depth Estimation via Planarity Prior"*.
 
-[Paper]([https://ieeexplore.ieee.org/abstract/document/10810496])
+[Paper](https://ieeexplore.ieee.org/abstract/document/10810496)
 #### Requirements
 
 - python 3.6
